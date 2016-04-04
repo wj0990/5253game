@@ -1,0 +1,3 @@
+if(document.market_loadids==null){document.market_loadids="";}
+document.write('<a adid="18706" rsid="52ep"   href="http://www.igbc.cgigc.com.cn/"  target="_blank" style="display:block"><img src="http://download.game.yy.com/resource/fodder/521170488/1458549482278_263107166.jpg" width="1180" height="110" /></a><div class="blank10"></div>');
+document.market_loadids += "18706,";

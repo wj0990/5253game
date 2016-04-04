@@ -1,0 +1,263 @@
+em,i{font-stle:normal;}
+.img{border:0;}
+.clearfix:before,.clearfix:after{content:""; display:table; height:0;}
+.clearfix:after{clear:both;}
+.fl{float:left;}
+.fr{float:right;}
+
+.banner_wrap{width:100%; height:350px; padding-top:20px; background:url(../img/banner_bg.jpg);}
+.banner_wrap .banner{overflow:hidden; width:1180px; height:350px; margin:0 auto; position:relative; z-index:5;}
+.banner .b_item{position:absolute; z-index:9;}
+.banner .b_l{width:800px; height:350px; top:0; left:0;}
+.banner .b_r_1{top:0;}
+.banner .b_r_1,.banner .b_r_2{width:380px; height:175px; right:0; overflow:hidden;}
+.banner .b_r_2{bottom:0;}
+.banner .b_item img{display:block; width:100%; height:100%; }
+.banner .b_des.default{height:58px;}
+.banner .b_des{width:100%; position:absolute; bottom:10px; left:0; z-index:10; color:#fff;}
+.banner .b_des span{display:block; width:54px; height:52px; background-color:#74a901; border-top:6px solid #639000; position:absolute; top:0; left:0;}
+.banner .b_des i{display:block; width:100%; text-align:center; }
+.banner .b_des i.day{height:30px; line-height:30px; font-size:24px; font-weight:700;}
+.banner .b_des i.week{}
+.banner .b_des h2{height:30px; line-height:30px; font-size:18px; font-weight:700; text-indent:66px; overflow:hidden; white-space:nowrap; text-overflow:ellipsis;}
+.banner .b_l .b_des h2{font-size:24px;}
+.banner .b_des.default h6{height:28px; white-space:nowrap; text-overflow:ellipsis; color:#bbb;}
+.banner .b_des h6{line-height:28px; font-size:14px; overflow:hidden; padding:0 20px 0 66px;}
+.banner .b_r_1 h6,.banner .b_r_2 h6{max-height:134px;}
+.banner .b_des .default h6 a{color:#bbb;}
+.banner .b_des h6 a{color:#fff;}
+ /*热门推荐start*/
+.game_type{width:1135px; height:246px; margin:0 auto; padding:30px 20px 0 25px; background-color:#f3f3f3; z-index:10; 
+	position:relative;}
+.game_type .top{margin-left:-27px;}	
+.game_type .top li{float:left; position:relative; padding:0 27px;}	
+.game_type .top a{display:block; font-size:14px; color:#666; border-bottom:2px solid #f3f3f3; padding-bottom:5px;}
+.game_type .top a:hover,.game_type .top a.active{color:#333; font-weight:700; border-bottom:2px solid #74a901; }
+.game_type .top i{display:block; width:1px; height:12px; background-color:#ccc; position:absolute; top:0px; right:0px;}
+
+
+ /*热门推荐end*/
+ /*热门游戏start*/
+ .game_type .center{display:none; padding-top:16px; border:bottom:1px solid #e5e5e5; }
+ .game_type .center li{float:left; width:82px; height:124px;margin-right:23px; position:relative;}
+ .game_type .center li.last{margin-right:0;}
+ .game_type .center a{display:block; width:100%; height:100%; position:relative;}
+ .game_type .center .photo{position:relative; display:block; width:82px; height:82px; border-radius:12px; overflow:hidden;}
+ .game_type .center img{display:block; width:100%;}
+ .game_type .center .name{display:block; width:100%; height:30px; line-height:30px; color:#333; text-align:center; overflow:hidden; white-space:normal; text-overflow:ellipsis;}
+ .game_type .center .save{top:0; right:28px; background-image:url(../img/save.png);}
+ .mod_save_down.save:hover{background-image:url(../img/save_act.png);}
+ .mod_save_down.down{top:0; right:0; background-image:url(../img/down.png);}
+ .mod_save_down.down:hover{background-image:url(../img/down_act.png);}
+ .game_type .center .mod_save_down{width:26px; height:26px; position:absolute; }
+ /*热门游戏end*/
+ /*精彩专栏start*/
+ .game_type .column_warp{padding-bottom:8px;}
+ .game_type .column_wrap li{margin-bottom:10px;width:100%; height:48px; margin-right:0;}
+ .game_type .column_wrap .column li{width:140px; height:48px; margin-right:13px; overflow:hidden;}
+ .game_type .column_wrap .column li a:hover{background-color:#ccc;}
+
+  .game_type .column_wrap .column li.last{margin-right:0;}
+ .game_type .column_wrap .column .column_video{width:60px; height:48px; background-color:#6f96de;}
+ .game_type .column_wrap .column .column_pictxt{width:60px; height:48px; background-color:#55ad3c;}
+ .game_type .column_wrap .column .column_video a,.game_type .column_wrap .column .column_pictxt a{font-size:12px; text-align:center; line-height:48px; color:#fff;}
+ .game_type .column_wrap .column img{width:140px; height:48px;}
+ .game_type .column_wrap .column li i{position:absolute;bottom:0; right:0; font-size:12px; text-align:center; color:#fff;background-color:rgba(0,0,0,.5);padding:4px; height:14px; overflow:hidden;}
+ .game_type .column_wrap .column .hover_mask{position:absolute; width:140px ; height:48px; background-color:rgba(0,0,0,.65); top:48px; left:0;font-size:14px; color:#fff; text-align:center; line-height:66px; overflow:hidden;}
+ /*精彩专栏end*/	
+  /*游戏列表start */
+  .game_type .bottom{padding-bottom:16px;}
+  .game_type .bottom li{height:20px; margin-bottom:8px;}
+  .game_type .bottom span{width:58px; height:20px; line-height:20px; text-align:center; color:#fff; background-color:#6f96de; float:left;}
+  .game_type .bottom li ul{width:1030px; height:28px; overflow:hidden;float:left;}
+  .game_type .bottom li{height:20px; margin-bottom:8px;}
+  .game_type .bottom li li{float:left;}
+  .game_type .bottom li li a{display:block; padding:0 16px; border-right:1px solid #ccc; white-space:nowrap;}
+  .game_type .bottom .more{width:44px; color:#999; float:right;}
+  .game_type .bottom .more:hover{color:#74a901;}
+    /*游戏列表start */
+    /*ad start*/
+  .ad_wrap{width:1180px; height:110px; margin:0 auto; margin-top:20px;}  
+  .blank10{height:10px;}
+  .blank10{display:block; clear:both; overflow:hidden;}
+    /*ad end*/
+    /*content head start*/
+    .con_head{width:1180px; height:766px; margin:0 auto; margin-top:20px;}
+    .con_head .left{width:860px; height:100%;}
+    .con_head .type_1,.con_head .type_2,.con_head .type_3{width:430px; height:242px; float:left; background-color:#f3f3f3; margin-bottom:20px; position:relative; overflow:hidden;}
+
+    .con_head .type_1 a{display:block; width:430px; height:242px; overflow:hidden; }
+    .con_head .left img{display:block; width:100%; height:100%;}
+    .con_head .type_1 .img_hover{display:block; width:430px; height:242px; overflow:hidden; position:absolute; top:0 ; transition:all 1s ease; -webkit-transition:all 1s ease;}
+    .con_head .type_1:hover .img_hover{background-color:rgba(0,0,0,.3);}
+    .con_head .type_2 i{width:44px; height:44px; position:absolute; top:0; left:0; background-image:url(../img/focus_tag.png);z-index:10; }
+   .con_head .type_2 ul{width:390px; margin:0 auto;}
+   .con_head .type_2 li{height:100px; padding-top:20px; float:none; margin:0;}
+
+   .con_head .type_2 .des{width:240px; float:left;}
+   .con_head .type_2 h4{font-weight:400; max-height:44px;overflow:hidden;}
+   .con_head .type_2 h4 a{font-size:14px; font-weight:700; color:#333; line-height:22px;}
+   .con_head .type_2 p{line-height:20px; max-height:40px; color:#999; overflow:hidden;}
+   .con_head .type_2 .img{width:142px; height:80px; float:right; overflow:hidden;}
+   .con_head .type_3 ul{width:390px; height:100%; margin:0 auto; }
+   .con_head .type_3 li{width:100%; height:28px; float:none; margin:0;}
+   .con_head .type_3 li.first{height:100px; margin-top:20px;}
+   .con_head .type_3 .des{width:240px; float:left; }
+   .con_head .type_3 h4{font-size:14px; font-weight:700; color:#333; line-height:22px; max-height:44px; overflow:hidden;}
+
+   .con_head .type_3 p{line-height:20px; max-height:40px; color:#999; overflow:hidden; }
+   .con_head .type_3 .img{float:right; display:block; width:142px; height:80px; overflow:hidden;} 
+   .con_head .type_3 i{float:left; width:3px; height:3px; margin-top:12px; margin-right:4px; background-color:#333; line-height:0; font-size:0; }
+   .con_head .type_3 a.title{width:320px; height:28px; line-height:28px; color:#333; float:left; overflow:hidden; font-size:14px;}
+   .con_head .type_3 .time{height:28px; line-height:28px; width:40px; color:#999; float:right; overflow:hidden;}
+   .con_head .type_3 .more{width:54px; height:18px; line-height:18px; text-align:center; background-color:#959595; position:absolute; bottom:14px; right:33px; color:#fff;}
+   .con_head .type_3 .more:hover{background-color:#74a901;}
+   .con_head .right{width:300px; height:100%;}
+   .con_head .app_down{display:block; width:298px; height:85px; border:1px solid #dedead; position:relative; }
+   .con_head .app_down .logo{width:62px; height:62px; position:absolute; top:13px; left:13px;}
+   .con_head .app_down i img{width:62px; height:62px;}
+   .con_head .right .app_down .head{height:24px; line-height:24px; font-size:24px; font-weight:700; color:#666; overflow:hidden; left:82px; top:12px;}
+   .con_head .right .app_down .head,.con_head .right .app_down .des{width:162px; position:absolute; left:82px;}
+   .con_head .right .app_down .des{top:42px; line-height:16px; color:#999; max-height:34px; overflow:hidden;}
+   .con_head .right .app_down i.down_img{width:38px; height:38px; position:absolute; top:22px;  right:12px; background:url(../img/down_icon.png) no-repeat;}
+   .con_head .right .app_down i.down_img:hover{background:url(../img/down_hover_icon.png) no-repeat;}
+   .con_head .right h3{height:42px; line-height:42px; font-size:18px; font-weight:700; color:#333; padding-top:12px; border-bottom:1px solid #eaeaea; position:relative; }
+/*   .con_head .right .gift_wrap a{display:block; width:100%; width:100%;}
+*/   .gift_wrap h3{height:42px; line-height:42px; font-size:18px; font-weight:700; color:#333; padding-top:12px; border-bottom:1px solid #eaeaea; position:relative;}
+   .con_head .right .more{width:50px; height:42px; line-height:42px; text-align:center; font-size:12px; color:#999; position:absolute; top:12px; right:0;}
+   .con_head .right .gift_wrap h3 .more{width:50px;}
+   .con_head .right .more:hover{color:#74a901;}
+   .con_head .right .gift_wrap li{width:62px; height:108px; float:left; margin-right:17px;} 
+   .con_head .right .gift_wrap li.last{margin-right:0;}
+   .con_head .right .gift_wrap .img{display:block; width:62px; height:62px; border-radius:12px; overflow:hidden; }
+   .con_head .right .gift_wrap .des{display:block; padding-top:6px; line-height:18px; text-align:center; max-height:38px; color:#666; overflow:hidden;}
+
+   .con_head .right .advance h3 ul{width:110px; height:14px; position:absolute; top:26px; left:100px; }
+   .con_head .right .advance h3 ul li.first{border-right:1px solid #7c7c7c;}
+   .con_head .right .advance h3 ul li{width:52px; height:14px; line-height:14px; text-align:center; float:left; font-size:14px; color:#666; font-weight:400;} 
+   .con_head .right .advance h3 ul li .active{color:#74a901;} 
+   .con_head .right .advance ul{width:300px; height:308px;}
+   .con_head .right .advance ul li{width:100%; height:34px; border-bottom:1px solid #f3f3f3; margin:0; padding:0; overflow:hidden; }
+   .con_head .right .advance .face{width:100%; height:34px; line-height:34px;}
+   .con_head .right .advance .name{width:158px; color:#666; text-indent:5px;}
+   .con_head .right .advance .name, .con_head .right .advance .time, .con_head .right .advance .status{height:100%; float:left; color:#999;}
+   .con_head .right .advance .status{width:60px; text-align:right; float:right;}
+              .con_head .right .advance .hover_wrap{display:block; width:100%; height:62px; padding:20px 0; position:relative;}
+   .con_head .right .advance .l_img{width:62px; height:62px; position:absolute; top:20px; }
+   .con_head .right .advance .hover_wrap p.p{font-size:14px; color:#333;}
+   .con_head .right .advance .hover_wrap p{height:24px; line-height:24px; text-indent:75px; padding-right:60px; position:relative; }
+   .con_head .right .advance .hover_wrap p.p1{font-size:14px; color:#333;}
+   .con_head .right .advance p .gift_icon{width:19px; height:18px; background-image:url(../img/gift_icon.png); position:absolute; top:0; right:0;text-indent:1000px; overflow:hidden;}
+   .con_head .right .advance p.p2 a{color:#999;}
+    .con_head .right .advance .{position:absolute; top:0; right:0;}
+    .con_head .right .advance ul li.active{height:102px;}
+    .con_head .right .advance p.p2 span{padding:0 10px; color:#999;}
+    .con_head .right .advance p.p2 i{position:absolute; top:0; right:0; color:#999;}
+    .con_head .right .hot_act{width:300px; height:132px;}
+    .con_head .right .hot_act h3{padding-top:23px; border:none;}
+    .con_head .right .hot_act li{width:142px; height:68px; float:left;}
+    .con_head .right .hot_act li.first{margin-right:16px;}
+    .con_head .right .hot_act li a{display:block; width:100%; height:100%; overflow:hidden; position:relative; }
+    .con_head .right .hot_act li a img{display:block; width:100%; height:100%;}
+    .con_head .right .hot_act li a span{width:100%; height:26px; line-height:26px; text-align:center; color:#fff; position:absolute; bottom:0; left:0; background-color:rgba(0,0,0,.3);}
+
+  
+	/*content head end*/
+  /*新增好玩游戏start*/
+  .game_banner{width:100%; height:354px; min-width:1180px; margin-top:20px; background-color:#28292d;}
+  .game_banner_inner{width:1180px; height:100%; margin:0 auto; overflow:hidden; position:relative;}
+  .game_banner_inner .title{display:block; width:100%; font-size:24px; line-height:24px; color:#fff; margin-top:30px;}
+  .game_banner_inner .more{position:absolute; right:0; top:38px;}
+  .pic_list{width:100%; height:242px; margin-top:20px;}
+  .pic_list li{float:left; position:relative; width:185px; height:242px; margin-right:2px; overflow:hidden; }
+  .pic_list li.on{width:430px;}
+  .pic_list .big_img{width:430px; height:242px; max-width:none;}
+  .pic_list .mask{width:100%; height:100%; position:absolute; bottom:0; background:url(../img/1x350.png) 0 2px repeat-x;}
+  .pic_list span{display:block; position:absolute; width:100%; text-align:center; height:40px; line-height:40px; color:#fff; bottom:0; overflow:hidden;}
+  .pic_list .article_title{display:block; }
+  .pic_list .tags_title{display:none;}
+  .pic_list .on .tags_title{display:block; font-size:14px;}
+  .pic_list .on .article_title{display:none;}   /*加js后可以去掉*/
+  .pic_list i{display:block; position:absolute; width:78px; height:22px; top:0; left:0;}
+  .pic_list i a{display:block; height:100%; width:100%; color:#ccc; text-align:center; font-size:12px; background-color:rgba(0,0,0,.65); overflow:hidden; }
+  .pic_list i a:hover{ color:#fff; background-color:#ff713a;}
+  /*新增好玩游戏end*/
+
+  /*节目start*/
+  .show_wrap{width:1180px; margin:0 auto;}
+  .mod_head{width:100%; height:52px; border-bottom:2px solid #eaeaea; position:relative; margin-top:50px;  }
+  .mod_head a.item{width:112px; height:40px; position:absolute; top:0; left:0;}
+  .mod_head a.item i{display:block; width:100%;text-indent:48px;}
+  .mod_head a.item i.show{background:url(../img/show_icon.png);}
+  .mod_head a.item i.icon{width:40px; height:40px; position:absolute; top:0; left:0;}
+
+  .mod_head a.item i.chinese{height:24px; line-height:24px; font-size:24px; color:#333;}
+  .mod_head a.item i.english{height:14px; line-height:14px; font-size:14px; color:#b9b9b9; .margin-top:2px;}
+  #step_4 .mod_head ul{width:940px; }
+  .mod_head ul{width:900px; height:14px; position:absolute; bottom:26px; left:120px; font-size:14px;} 
+  .mod_head li{position:relative; float:left; }
+  .mod_head li a{padding:0 18px; border-left:1px solid #ccc; white-space:nowrap;}
+  .mod_h3{width:100%; height:42px; line-height:42px; border-bottom:1px solid #eaeaea; font-size:18px; font-weight:700; color:#333; position:relative; }
+  .mod_h3 .more{display:block; width:50px; height:42px; line-height:42px; font-size:12px;font-weight:400; color:#999; position:absolute; top:0; right:0; }
+
+  /*.mod_head .video_iden i,.mod_head .pic_iden i{border:none;}*/ 
+  .mod_head li.video_iden span,.mod_head .pic_iden span{display:block; width:40px; height:22px; color:#fff; font-size:12px; line-height:22px; text-align:center; }
+  .mod_head .video_iden i,.mod_head .pic_iden i{display:block; width:0; height:0; line-height:0; overflow:hidden; position:absolute; border-bottom:4px dashed transparent; border-top:4px dashed transparent;  top:7px; right:-3px;}
+  .mod_head .video_iden i{border-left:3px solid #6f96de;}
+  .mod_head .video_iden span{background-color:#6f96de;}
+  .mod_head .pic_iden i{border-left:3px solid #74a901;}
+  .mod_head .pic_iden span{background-color:#74a901;}
+  .mod_head .more{width:60px; height:30px; line-height:30px; font-size:12px; text-align:center; color:#999; position:absolute; top:0; right:0; } 
+
+    .show_wrap .show_bd{width:100%; height:344px; padding-top:20px; }
+    .show_wrap .show_bd .mod_video{width:860px; height:344px; }
+    .mod_video li{float:left; width:195px; height:162px; background-color:#f5f5f5; margin-left:20px; position:relative; }
+    .mod_video li.first{width:430px; height:344px; margin:0;}
+    .mod_video li .img{display:block; width:195px; height:109px; overflow:hidden; position:relative; z-index:10;}
+    .mod_video li.first .img{height:242px; width:430px; }
+    .mod_video li .img img{display:block; width:100%; height:100%;}
+    .mod_video li .img_hover{display:block; width:195px; height:162px; overflow:hidden; position:absolute; top:0;transition:all 1s ease; }
+     .mod_video li:hover .img_hover{background-color:rgba(0,0,0, .6);}
+    .mod_video li.first .img_hover{width:430px; height:242px;} 
+    .mod_video li.first .img i{display:block; width:50px; height:50px; position:absolute; bottom:16px; right:17px; background-image:url(../img/play_icon.png);z-index:10px;}
+    .mod_video li.first:hover .img i{background-image:url(../img/hover_play_1.png);}
+    .mod_video li .bot{width:100%; height:38px; position:relative; margin-top:8px; z-index:10;}
+    .mod_video li.first .bot{height:50px; margin-top:10px;}
+    .mod_video li .bot a{display:block; width:38px; height:38px; position:absolute; top:0px; left:9px; border-radius:19px; overflow:hidden;}
+    .mod_video li .bot a img{display:block; width:100%; height:100%;}
+
+    .mod_video li .bot p{font-size:12px; text-indent:54px; overflow:hidden;}
+    .mod_video li.first .bot p{text-indent:67px;}
+    .mod_video li .bot p.name{color:#666; height:16px; line-height:16px;}
+    .mod_video li .bot p.des{color:#333; height:22px; line-height:22px;}
+    .mod_video li.first .bot p.des{font-size:14px; line-height:24px; height:24px;}
+    .mod_video li.first p.data_p{position:relative; width:100%; height:18px;}
+    .mod_video li.first p.data_p span{width:82px; height:18px; line-height:18px; font-size:12px; color:#999;}
+    .mod_video li.first p.data_p span .icon{display:block; float:left; width:18px; height:16px; background-image: url(../img/play_num.png);}
+    .mod_video li.first p.data_p span .num{display:block; width:58px; height:18px; line-height:18px; float:left; margin-left:6px;}
+    .mod_video li .hover_wrap{width:205px; height:173px; box-shadow:0 2px 5px rgba(0,0,0,.25); border:1px solid#afda4d; position:absolute;top:-5px; left:-5px; text-indent:-9999px; z-index:9;}
+    .mod_video li.first .hover_wrap{width:440px; height:354px; box-shadow:0 2px 5px rgba(0,0,0,.25);border:1px solid #afda4d; position:absolute; top:-5px; left:-5px; }
+    .mod_video li.mt20{margin-top:20px;}
+    .mod_video li .pl_icon{ width:40px; height:40px; position:absolute; top:50%; left:50%; margin-left:-20px; margin-top:-44px; background-image:url(../img/hover_play_2.png);z-index:11; text-indent:-9999px; cursor:pointer; }
+
+    .mod_video_r{width:300px;}
+    .mod_h3{width:100%; height:42px; line-height:42px; border-bottom:1px solid #eaeaea; font-size:18px; font-weight:700; color:#333; position:relative; }
+    .mod_h3 .more{display:block; width:50px; height:42px; line-height:42px; font-size:12px;font-weight:400; color:#999; position:absolute; top:0; right:0; }
+    .hand_game{width:100%; margin-bottom:18px;}
+    .show_wrap .mod_video_r .hand_game li{width:100%; height:62px; margin-top:20px; position:relative; }
+    .show_wrap .mod_video_r .hand_game img{width:62px; height:62px; position:absolute; top:0; left:0; border-radius:12px; overflow:hidden; z-index:100;} 
+    .show_wrap .mod_video_r .hand_game p{text-indent:70px; position:relative; overflow:hidden; padding-right:60px;}
+    .show_wrap .mod_video_r .hand_game p.name{top:5px; left:0; height:28px; line-height:28px; font-size:14px; color:#333;}
+    .show_wrap .mod_video_r .hand_game p span{text-indent:0; position:absolute; top:0; right:0;}
+    .show_wrap .mod_video_r .hand_game p.name span{display:block; width:50px; height:30px; font-family:Constantia,'微软雅黑'; font-size:30px; color:#ff7800;}
+    .show_wrap .mod_video_r .hand_game p.des{height:20px; line-height:20px; margin-top:5px; color:#999;}
+        .show_wrap .mod_video_r .hand_game p.des span{top:4px; display:block; width:54px; height:16px; line-height:14px; text-align:center; color:#fff; background-color:#ff7800; }
+     .hot_man li{width:142px; height:54px; float:left; margin-top:20px;}
+     .hot_man li.li_l{margin-right:16px;} 
+     .hot_man a{display:block; width:100%; height:100%; position:relative; overflow:hidden; }
+     .hot_man span.img{width:54px; height:54px; border-radius:27px; overflow:hidden; top:0; left:0;}
+     .hot_man span{position:absolute; }
+     .hot_man span.name{width:66px; line-height:18px; top:10px; right:10px; color:#666;}
+     .hot_man span.name_hover{display:none; width:40px; height:18px; line-height:18px; text-align:center; color:#74a901; border:1px solid #74a901; right:30px; top:15px;}
+
+

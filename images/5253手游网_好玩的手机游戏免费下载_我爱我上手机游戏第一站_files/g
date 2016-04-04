@@ -1,0 +1,3 @@
+if(document.market_loadids==null){document.market_loadids="";}
+document.write('<a adid="18208" rsid="52sp"   href="http://cr.5253.com/"  target="_blank" style="display:block"><img src="http://download.game.yy.com/resource/fodder/521171325/1458011703494_462987082.jpg" width="1180" height="110" /></a><div class="blank10"></div>');
+document.market_loadids += "18208,";
